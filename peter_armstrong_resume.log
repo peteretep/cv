@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.10.21)  25 OCT 2015 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.10.21)  22 FEB 2016 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**peter_armstrong_resume.tex -recorder -output-directory=/home/peter/cv
-(/home/peter/cv/peter_armstrong_resume.tex
+**peter_armstrong_resume
+(./peter_armstrong_resume.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -182,7 +182,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 
-(/home/peter/cv/peter_armstrong_resume.aux)
+(./peter_armstrong_resume.aux)
 \openout1 = `peter_armstrong_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -228,8 +228,7 @@ LaTeX Info: Redefining \ref on input line 58.
 LaTeX Info: Redefining \pageref on input line 58.
 LaTeX Info: Redefining \nameref on input line 58.
 
-(/home/peter/cv/peter_armstrong_resume.out)
-(/home/peter/cv/peter_armstrong_resume.out)
+(./peter_armstrong_resume.out) (./peter_armstrong_resume.out)
 \@outlinefile=\write3
 \openout3 = `peter_armstrong_resume.out'.
 
@@ -258,95 +257,50 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 112--113
+Overfull \hbox (6.0pt too wide) in paragraph at lines 133--134
 [][][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 118--119
+Overfull \hbox (6.0pt too wide) in paragraph at lines 139--140
 [][][][][][][]  
  []
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 129--130
-[][][][][][][]  
- []
-
-! Extra }, or forgotten \endgroup.
-l.134         }
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
-l.140         }
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Too many }'s.
-l.148         }
-               
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150   \end{itemize}
-                      % End Education list
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.150   \end{itemize}
-                      % End Education list
-Things are pretty mixed up, but I think the worst is over.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 151--152
+[][][][][][][]  
+ []
 
-(/home/peter/cv/peter_armstrong_resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+ (./peter_armstrong_resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `peter_armstrong_resume.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
  ) 
 Here is how much of TeX's memory you used:
  5134 strings out of 495000
- 77221 string characters out of 6181168
- 161592 words of memory out of 5000000
+ 77072 string characters out of 6181168
+ 162592 words of memory out of 5000000
  8347 multiletter control sequences out of 15000+600000
  8984 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,7n,23p,349b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,23p,302b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on peter_armstrong_resume.pdf (1 page, 80487 bytes).
+Output written on peter_armstrong_resume.pdf (2 pages, 82679 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
